@@ -14,7 +14,8 @@ This DNS provider keeps a small log backlog, but the only way for an adversary t
 
 ## Things to Avoid When choosing an Upstream Provider:
 - Avoid any Upstream servers provided or hosted by large companies like Google, Amazon, or Cloudflare (which is owned by google), as they are prime targets for law enforcement seeking to access your data.
-- Avoid any DNS provided by your ISP; They also have been found to work with Governments. THIS IS ESPECIALLY TRUE FOR IRANIAN PROTESTERS, AS MOST IF NOT ALL ISPs ARE EITHER GOVERNMENT OWNED, OR ARE PRESSURED INTO DISCLOSURE. FOR ANY PROTESTERS IN IRAN, YOU WILL NEED TO ROUTE YOUR DNS THROUGH THE TOR NETWORK. REFER TO [[tor_config.txt]] FOR INSTRUCTIONS. I haven't documented how to do this on Pi-Hole yet, but it will be the first thing I update after this.
+- Avoid any DNS provided by your ISP; They also have been found to work with Governments. 
+	- THIS IS ESPECIALLY TRUE FOR IRANIAN PROTESTERS, AS MOST IF NOT ALL ISPs ARE EITHER GOVERNMENT OWNED, OR ARE PRESSURED INTO DISCLOSURE. FOR ANY PROTESTERS IN IRAN, YOU WILL NEED TO ROUTE YOUR DNS THROUGH THE TOR NETWORK. REFER TO [[tor_config.txt]] FOR INSTRUCTIONS.
 - Choose Open Source when you can, as it forces whoever is running the service to be transparent about what they implement.
 - Check if they keep logs. If they don't say, assume they do.
 - ALWAYS check if your DNS is being overwritten. This could be the fault of your modem, your router, your browser, or even your own damn computer.
