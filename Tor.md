@@ -10,7 +10,7 @@ Tor (The Onion Router) is a decentralized network designed to protect activists 
 
 It is one of the best tools to preserve your privacy; the other tools use tor by default or by definition. This section of the guide will show you how to properly set up tor on your router.
 
-## Implementing tor in an OpenWrt Container (Manual)
+## Implementing tor in OpenWrt (Manual config)
 Manual configuration of tor on your router is probably the easiest, but more time-consuming, methods of configuration. Once you've built the image, Follow the instructions below to set up tor manually.
 
 1. Run `docker exec -it [imagename]`

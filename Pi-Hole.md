@@ -1,6 +1,6 @@
-# Installing PiHole
+# Installing Pi-Hole
 ## 1. Configure the Network Interfaces
-Before installing PiHole, you'll need to set a static IP address for the Ethernet Interface. To do so, you'll need to  [[Configure Ethernet|edit the network config file]]
+Before installing Pi-Hole, you'll need to set a static IP address for the Ethernet Interface. To do so, you'll need to  [[Configure Ethernet|edit the network config file]]
 Initially, I faced quite a bit of difficulty setting Pi-Hole up either due to network interfaces not behaving or due to missing repositories. However, I ended up getting Pi-Hole working by first following the [[Pi-Hole Setup Guide]],
 then proceeding with the instructions found in [[Pi-Hole#Configuring PiHole|"Configuring Pi-Hole"]]
 
@@ -20,3 +20,6 @@ You'll want to be able to hard-block any tracking domains that could collect any
 
 ## 4. Refine Security
 Additional security measures can be found in the [[Pi-Hole Setup Guide]]. I highly recommend implementing them.
+
+>[!IMPORTANT]
+>For Users in Iran, it would be a good practice to route your DNS traffic over tor, since your ISP is likely handing data on these requests over to the government. Following [[DNS over Tor|this guide]] to implement tor on your Pi-Hole, and be sure [[Tor#Implementing tor in OpenWrt Manual config|to do the same in OpenWrt]].
