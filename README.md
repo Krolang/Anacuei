@@ -11,22 +11,22 @@ Privacy is your first line of defense against an entity that is trying to infrin
 A DISCLAIMER:
 The project is still in its infancy, so **I cannot guarantee that it is free of any vulnerabilities.** However, I am working to get it audited as soon as I can, and I am working to implement better security as fast as I can.
 
-Later iterations could potentially utilize [[Docker]] to consolidate the system into one device while preserving security, or even utilize some new technology to bypass ISP surveillance. For now, this should be enough to foil any state law enforcement that's prowling around looking for people seeking an abortion.
+Later iterations will allow one to utilize [[Docker]] to consolidate the system into one device while preserving security, or even utilize some new technology to bypass ISP surveillance. For now, this should be enough to foil any state law enforcement that's prowling around looking for people seeking an abortion. And for the brave Iranian Protesters, I am constantly updating this documentation as I learn more about what your government is capable of.
 
-
-## [[Usage|USAGE GUIDELINES]]
+>[!IMPOERANT]
+> [[Usage|USAGE GUIDELINES]]
 
 ## Hardware
-- [[GL-iNet Router]] or a [[Raspberry Pi]]. I used the GL-iNet because I only had one Pi, which didn't have a built in Wi-Fi chip (If you use a Pi for this part, you NEED one with a built in Wi-Fi chip).
+- [[OpenWrt|GL-iNet Router]] or a [[Raspberry Pi]]. I used the GL-iNet because I only had one Pi, which didn't have a built in Wi-Fi chip (If you use a Pi for this part, you NEED one with a built in Wi-Fi chip).
 - [[Raspberry Pi]]. This is in addition to the one you may have used for the router, as this one will be used as a[[ DNS]] Server running [[Pi-Hole]]. Newer Versions are always preferable, but my old Pi 2 B v1.1 worked in the end (even though it has been discontinued).
 - Ethernet Cables. You'll need two of these: one connecting the [[DNS]] to the router's LAN port, and the other connecting to the modem from the Router's WAN port.
 - 8GB microSD card. This will usually come with the pi. It will contain the Raspberry Pi's Operating system.
 NOTE: While I haven't tried this, It may be possible to run everything on a singular [[Raspberry Pi]] using [[Docker]]. I am in the process of doing this, and will update the documentation accordingly.
 
-## Building the System
-### (GL-iNet + RPi)
+## Building the System 
+### From Hardware (GL-iNet + RPi)
 1. [[Raspberry Pi#Installing the Operating system|Install an Operating system on the Raspberry Pi]]
-2. [[GL-iNet Router#Setup|Set up and Configure the Router]]
+2. [[OpenWrt#Setup|Set up and Configure the Router]]
 3. [[Pi-Hole#Installing PiHole|Install and configure Pi-Hole]]
 4. [[Testing|Make sure that everything works]]
 5. [[Firewall|Configure the firewall]]

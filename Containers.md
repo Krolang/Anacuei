@@ -79,7 +79,7 @@ sudo docker inspect AnacInt
 ```
 You should see some IP addresses. Find the one that says "IPv4Address" and write it down.
 >[!NOTE]
->depending on how IP Assignment works within docker and whether OpenWRT overrides that, you may need to assign a static IP using the instructions in the  [[GL-iNet Router#2 DNS|GL-iNet setup]] section.
+>depending on how IP Assignment works within docker and whether OpenWRT overrides that, you may need to assign a static IP using the instructions in the  [[OpenWrt#2 DNS|GL-iNet setup]] section.
 
 ## 8. Set a New Password
 Enter the Container's Command Line by running
@@ -100,6 +100,8 @@ exit
 ```
 
 To speed up this process, we could make a Dockerfile that runs all the necessary configuration upon startup. But unless you actually stop the docker service, configuration should persist.
+
+## 10. Implement [[DNS over Tor]] on the Pi-Hole
 
 # OpenWrt
 Normally, People run Docker on OpenWrt, because there are apparently some complications. However, OpenWrt can only run docker if it is installed on x86 or server infrastructure. Given that most people don't have an entire server just lying around We need to containerize the router as well.
@@ -147,6 +149,10 @@ cd /openwrt-docker-master
 ```
 
 Now follow the steps detailed in [[Oofnikj#Build|Oofnikj's Build Documentation]]
+
+>[!NOTE]
+>Rename `openwrt.conf.example` to `openwrt.conf`, otherwise the build command will fail.
+>Also, change the `ARCH` entry in the config file to `armvirt64` (or whatever the OS you're deploying on uses).
 
 ## 4. Set up tor.
 To do this, you'll want to either [[Tor#Implementing tor in an OpenWrt Container Manual|configure tor manually]] or [[Tor#Implementing tor in an OpenWrt Container Automated|Alter OpenWrt's Dockerfile]] to automatically set up tor for you.
