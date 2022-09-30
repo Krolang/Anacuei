@@ -46,5 +46,5 @@ NOTE: While I haven't completed it, It may be possible to run everything on a si
 OpenWrt supports OpenVPN and Wireguard VPN. However, I do not suggest Implementing A VPN on this system, even one as private as RISEUP VPN. For details see the [[Usage#VPN Guidelines|VPN warning]].
 
 ## Additional Reading:
-- Using LINDDUN to make a threat model
+- Using LINDDUN to make a [[THREAT MODEL]]
 	- https://www.linddun.org/linddun-threat-catalog
