@@ -4,7 +4,7 @@ It comes with security features that will help us secure our router, like intern
 
 We will use Docker to run the firmware for the router, DNS server, and the Domain Blocking, allowing our entire network infrastructure to be contained within a single computer. In theory, we could use Docker to implement any sort of infrastructure we want; we can configure a VPN, an Encrypted Mail Server, Proxies, an amnesic Log Server, or even a tor relay, all with a couple of commands.
 
-I plan to publish a dockerfile for those less technologically inclined, but this guide should contain everything you need to build the dockerfile yourself.
+I plan to publish a Dockerfile for those less technologically inclined, but this guide should contain everything you need to build the Dockerfile yourself.
 
 # Installation
 For this Project, I installed Docker from the Command line on Ubuntu. I've been told it is smoother on Fedora Linux, but I knew my way around Ubuntu well enough, and I planned to add Onionshare to the host OS, to allow file transfer over the tor network. This didn't end up working, so I plan to put it into another container.

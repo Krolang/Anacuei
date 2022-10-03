@@ -159,4 +159,4 @@ To do this, you'll want to either [[Tor#Implementing tor in an OpenWrt Container
 
 
 >[!WARNING]
->REMEMBER TO SET YOUR PASSWORDS IN THE CONFIG FILES.
+>REMEMBER TO SET YOUR PASSWORDS!

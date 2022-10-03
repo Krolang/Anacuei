@@ -4,6 +4,9 @@ I used the GL-AR300M16 Mini Router, as it was very inexpensive, very compact, an
 ## Firmware
 The Firmware I used that came with tor preinstalled can be found here: https://openwrt.org/toh/views/toh_fwdownload?dataflt%5BBrand*%7E%5D=GL&dataflt%5BModel*%7E%5D=GL-AR300M&dataflt%5BVersions*%7E%5D=v1.4.0. The firmware gets downloaded to your computer, then *locally* installed through the router's Web Interface.
 
+>[!WARNING]
+>You need to get the firmware without having it correlated with your identity. Tor is not looked upon favorably in some countries. BE EXTREMELY CAREFUL IN THIS CIRCUMSTANCE.
+
 ## Setup
 1. The first thing you're going to want to do is access the Admin panel. You do this by plugging the router into your modem (see the router's instruction manual for details), connecting to the WIFI network that shows up, then typing the Router's default IP address (192.168.8.1) into your browser's address bar. When prompted, log in with the credentials on the bottom of the unit.
 2. In the Web Interface, navigate to the UPGRADE tab. Select "Local Upgrade", then upload the [[OpenWrt#Firmware|tor-enabled firmware]] you downloaded earlier.

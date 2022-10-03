@@ -32,15 +32,15 @@ NOTE: While I haven't completed it, It may be possible to run everything on a si
 2. [[OpenWrt#Setup|Set up and Configure the Router]]
 3. [[Pi-Hole#Installing PiHole|Install and configure Pi-Hole]]
 4. [[Testing|Make sure that everything works]]
-5. [[Firewall|Configure the firewall]]
+5. [[Firewall#Hardware Build|Configure the firewall]]
 
 ### Within Docker (Raspberry Pi 4 B) (Work In Progress, Not Recommended)
 1. [[Raspberry Pi#Installing the Operating system|Install the Host OS onto the Pi]] (follow the instructions that came with the pi for this).
 	- Docker can only be installed on Raspbian through a convenience script, so I recommend choosing a different Linux distro so you can install from the repositories. Most of the tutorials recommended Fedora Desktop 33, but I used Ubuntu and just didn't install the graphical interface for docker. This ended up working very well.
-1. [[Docker#Installation|Install Docker on the Host OS]]
+2. [[Docker#Installation|Install Docker on the Host OS]]
 	- These instructions might vary depending on your chosen distro. This documentation uses Ubuntu as the Host OS.
-1. [[Containers|Set up the Containers]]
-2. Configure the Virtual Network
+3. [[Containers|Set up the Containers]]
+4. Configure the Virtual Network
 
 >[!NOTE]
 OpenWrt supports OpenVPN and Wireguard VPN. However, I do not suggest Implementing A VPN on this system, even one as private as RISEUP VPN. For details see the [[Usage#VPN Guidelines|VPN warning]].

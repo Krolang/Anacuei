@@ -1,6 +1,6 @@
 # Installing Pi-Hole
 ## 1. Configure the Network Interfaces
-Before installing Pi-Hole, you'll need to set a static IP address for the Ethernet Interface. To do so, you'll need to  [[Configure Ethernet|edit the network config file]]
+Before installing Pi-Hole, you'll need to set a static IP address for the Ethernet Interface. To do so, you'll need to [[Configure Ethernet|edit the network config file]].
 Initially, I faced quite a bit of difficulty setting Pi-Hole up either due to network interfaces not behaving or due to missing repositories. However, I ended up getting Pi-Hole working by first following the [[Pi-Hole Setup Guide]],
 then proceeding with the instructions found in [[Pi-Hole#Configuring PiHole|"Configuring Pi-Hole"]]
 

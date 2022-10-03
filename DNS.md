@@ -19,4 +19,4 @@ This DNS provider keeps a small log backlog, but the only way for an adversary t
 - Choose Open Source when you can, as it forces whoever is running the service to be transparent about what they implement.
 - Check if they keep logs. If they don't say, assume they do.
 - ALWAYS check if your DNS is being overwritten. This could be the fault of your modem, your router, your browser, or even your own damn computer.
-- **ALWAYS Evaluate the service according to your [[Anacuei#Additional Reading|Threat Model]]!**
+- **ALWAYS Evaluate the service according to your [[THREAT MODEL]]!**

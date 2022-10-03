@@ -14,4 +14,4 @@ It may be the case that your Pi's network interfaces weren't configured before i
 - If one of the repositories isn't installing, attempt to use a different installation method (I used bash, but it only worked after my seventh attempt to install was interrupted, and I have no idea why. This likely won't be the case on a newer model of pi).
 
 #### Alternatively: Give up
-- Depending on your [[Anacuei#Additional Reading|threat model]], It may be fine to forgo setting up Pi-Hole and use secure [[DNS#Upstream DNS|Upstream DNS servers]].
+- Depending on your threat model, It may be fine to forgo setting up Pi-Hole and use secure [[DNS#Upstream DNS|Upstream DNS servers]].

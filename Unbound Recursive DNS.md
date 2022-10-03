@@ -269,3 +269,7 @@ sudo apt remove unbound
 ```
 
 Make sure to switch to another upstream DNS server for Pi-hole.
+
+---
+## Bypassing ISP surveillance Entirely:
+Even if you do all this, your ISP can oftentimes still see what DNS requests you make. This is bad. To avoid this, Route [[DNS over Tor]].
