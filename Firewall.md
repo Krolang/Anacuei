@@ -16,3 +16,25 @@ Ideally, you shouldn't have any always-listening devices phoning home to their c
 
 ## Setting up the Zones
 ### Hardware Build
+#### OpenWrt
+##### Firewall Zones
+Make sure you are in the `LuCi` advanced config interface.
+
+1. Head to NETWORK->FIREWALL
+2. Find the row with the blue box that says "Guest"
+3. Change the Input dropdown from "drop" to "reject"
+5. Click the Blue "Save and Exit button"
+
+To be honest, the GL-iNet config page set up most of the firewall for you.
+
+##### MAC Filtering
+This provides an extra layer of security, ensuring that only specific devices can connect to the main LAN.
+
+1. Head to NETWORK->WIRELESS
+2. Find the entry that corresponds to the Main Wi-Fi network. Click the Blue EDIT button.
+3. Go to the MAC Filter tab.
+4. In the dropdown, select "allow listed only"
+5. A new dropdown will appear; select only necessary devices, such as the router itself, the Raspberry Pi, and the devices of your family (make sure they are secured as well.)
+6. Click the green "Save" button, then the blue "Save and Apply"
+
+From here, continue with the [[OpenWrt#Configuration|Configuration]].
