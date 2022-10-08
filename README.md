@@ -34,7 +34,10 @@ NOTE: While I haven't completed it, It may be possible to run everything on a si
 4. [[Testing|Make sure that everything works]]
 5. [[Firewall#Hardware Build|Configure the firewall]]
 
-### Within Docker (Raspberry Pi 4 B) (Work In Progress, Not Recommended)
+### Within Docker (Raspberry Pi 4 B) (Work In Progress, **Not Recommended**)
+>[!WARNING]
+>This method of building the system is HIGHLY experimental. I have not gotten it to work. I do not recommend this method. However, I have included the documentation in its unfinished state such that anyone who *can* get it working has something to jump off of.
+
 1. [[Raspberry Pi#Installing the Operating system|Install the Host OS onto the Pi]] (follow the instructions that came with the pi for this).
 	- Docker can only be installed on Raspbian through a convenience script, so I recommend choosing a different Linux distro so you can install from the repositories. Most of the tutorials recommended Fedora Desktop 33, but I used Ubuntu and just didn't install the graphical interface for docker. This ended up working very well.
 2. [[Docker#Installation|Install Docker on the Host OS]]
@@ -48,3 +51,5 @@ OpenWrt supports OpenVPN and Wireguard VPN. However, I do not suggest Implementi
 ## Additional Reading:
 - Using LINDDUN to make a [[THREAT MODEL]]
 	- https://www.linddun.org/linddun-threat-catalog
+- An Activist's Guide to INFOSEC (Zine)
+	- [[activist-info-sec-SCREEN.pdf]] (Please Translate if you can)
