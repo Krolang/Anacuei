@@ -7,6 +7,10 @@ We will use Docker to run the firmware for the router, DNS server, and the Domai
 I plan to publish a Dockerfile for those less technologically inclined, but this guide should contain everything you need to build the Dockerfile yourself.
 
 # Installation
+
+>[!WARNING]
+>**DO NOT USE UBUNTU**. In addition to the shortcomings of the Operating system, It has some additional security vulnerabilities. If you need to use OnionShare, do so from [[README#1 Tails OS|Tails OS]]
+
 For this Project, I installed Docker from the Command line on Ubuntu. I've been told it is smoother on Fedora Linux, but I knew my way around Ubuntu well enough, and I planned to add Onionshare to the host OS, to allow file transfer over the tor network. This didn't end up working, so I plan to put it into another container.
 
 I did the install on a desktop version of the 64-bit OS (if I had used a 32 bit OS, i wouldn't have been able to run Docker containers that used x64 kernels), so that I could use a Graphical Interface to troubleshoot things. However, since most of the installation steps were done via the command line anyway, the desktop environment is unnecessary, but certainly convenient.

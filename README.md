@@ -36,7 +36,7 @@ NOTE: While I haven't completed it, It may be possible to run everything on a si
 
 ### Within Docker (Raspberry Pi 4 B) (Work In Progress, **Not Recommended**)
 >[!WARNING]
->This method of building the system is HIGHLY experimental. I have not gotten it to work. I do not recommend this method. However, I have included the documentation in its unfinished state such that anyone who *can* get it working has something to jump off of.
+>This method of building the system is HIGHLY experimental. I have not gotten it to work. **I do not recommend this method**. However, I have included the documentation in its unfinished state such that anyone who *can* get it working has something to jump off of.
 
 1. [[Raspberry Pi#Installing the Operating system|Install the Host OS onto the Pi]] (follow the instructions that came with the pi for this).
 	- Docker can only be installed on Raspbian through a convenience script, so I recommend choosing a different Linux distro so you can install from the repositories. Most of the tutorials recommended Fedora Desktop 33, but I used Ubuntu and just didn't install the graphical interface for docker. This ended up working very well.
@@ -53,3 +53,20 @@ OpenWrt supports OpenVPN and Wireguard VPN. However, I do not suggest Implementi
 	- https://www.linddun.org/linddun-threat-catalog
 - An Activist's Guide to INFOSEC (Zine)
 	- [[activist-info-sec-SCREEN.pdf]] (Please Translate if you can)
+
+## For Higher-Threat Situations
+Living under an oppressive regime necessitates that extra steps be taken to secure your data and protect yourself. Specific advice is highly dependent upon your threat model; as such I can only give general advice.
+
+### 1. Tails OS
+Tails OS can be run off of an 8GB USB, and will erase any data upon restart. Traffic is routed through tor by default, and the OS contains many tools that will help with anonymity. You will want to verify their PGP signature to confirm that the Firmware hasn't been altered by a bad actor. 
+
+[Tails OS official Download page](https://tails.boum.org/install/index.en.htm)
+
+>[!IMPORTANT]
+>If you know someone who already has Tails, you can clone their firmware. Instructions are on the official site's download page, near the bottom.
+
+### 2. VeraCrypt
+VeraCrypt is a tool that allows you to encrypt not just files, but storage volumes on your computer. It was Built with Plausible Deniability in mind, as you can specify a Hidden volume within another volume, such that you can protect your data in the event that you are forced to decrypt the volume. It can be run off of a USB, but it's best not to use it to encrypt a USB, as the way data is stored on these devices opens some vulnerabilities.
+
+[VeraCrypt Download Page](https://www.veracrypt.fr/en/Downloads.html)
+

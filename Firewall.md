@@ -22,10 +22,12 @@ Make sure you are in the `LuCi` advanced config interface.
 
 1. Head to NETWORK->FIREWALL
 2. Find the row with the blue box that says "Guest"
-3. Change the Input dropdown from "drop" to "reject"
-5. Click the Blue "Save and Exit button"
+3. Make sure that the Input dropdown says "drop" and not "reject". 
+	- *Rejecting* packets from an attacker on the WAN tells them that the firewall has been configured, and they will look for another way in. 
+	- If, however, you tell the firewall to *drop* the packets, then anyone trying to break in from the WAN will assume that the device is off or not responding, potentially buying you time.
+1. Click the Blue "Save and Exit button"
 
-To be honest, the GL-iNet config page set up most of the firewall for you.
+(To be honest, the GL-iNet config page set up most of the firewall for you.)
 
 ##### MAC Filtering
 This provides an extra layer of security, ensuring that only specific devices can connect to the main LAN.
@@ -34,7 +36,11 @@ This provides an extra layer of security, ensuring that only specific devices ca
 2. Find the entry that corresponds to the Main Wi-Fi network. Click the Blue EDIT button.
 3. Go to the MAC Filter tab.
 4. In the dropdown, select "allow listed only"
-5. A new dropdown will appear; select only necessary devices, such as the router itself, the Raspberry Pi, and the devices of your family (make sure they are secured as well.)
-6. Click the green "Save" button, then the blue "Save and Apply"
+5. A new dropdown will appear; select only necessary devices, such as the router itself, the Raspberry Pi, and the devices of your family.
+>[!NOTE]
+>Make sure that the devices you're connecting to the main network are secure. If you cannot verify that they are, then have them connect to the guest network.
+7. Click the green "Save" button, then the blue "Save and Apply"
+
+Mac Filtering is a great way to secure your main network, but Mac addresses can be faked. If you know how to set up a database for WPA3-Enterprise, you would do well to implement that, as it would make access dependent upon the client possessing an encryption key specified in said database.
 
 From here, continue with the [[OpenWrt#Configuration|Configuration]].
