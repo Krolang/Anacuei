@@ -1,3 +1,6 @@
+>[!WARNING]
+>THIS IS NOT FULLY IMPLEMENTED. I DO NOT RECOMMEND FOLLOWING THESE STEPS. USE THE [[README#From Hardware GL-iNet RPi|HARDWARE BUILD]] INSTEAD.
+
 Docker is an application that streamlines app deployment and reduces the ammount of workload and hardware you need to set up infrastructure. Instead of running different programs on Operating systems running in virtual machines on a hypervisor, various Docker images run in the Docker environment on a host OS.
 
 It comes with security features that will help us secure our router, like internal networking to minimize the amount of ports open to the web.
@@ -9,7 +12,7 @@ I plan to publish a Dockerfile for those less technologically inclined, but this
 # Installation
 
 >[!WARNING]
->**DO NOT USE UBUNTU**. In addition to the shortcomings of the Operating system, It has some additional security vulnerabilities. If you need to use OnionShare, do so from [[README#1 Tails OS|Tails OS]]
+>**DO NOT USE UBUNTU**. In addition to the shortcomings of the Operating system, It has some additional security vulnerabilities. If you need to use OnionShare, do so from [[README#1 Tails OS|Tails OS]] or alternatively from TENS OS.
 
 For this Project, I installed Docker from the Command line on Ubuntu. I've been told it is smoother on Fedora Linux, but I knew my way around Ubuntu well enough, and I planned to add Onionshare to the host OS, to allow file transfer over the tor network. This didn't end up working, so I plan to put it into another container.
 

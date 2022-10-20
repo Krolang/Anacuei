@@ -1,6 +1,8 @@
 ## Pi-hole as All-Around DNS Solution
 Link to source:  https://docs.pi-hole.net/guides/dns/unbound/.
+License: [[Licence Index#PiHole|CC BY-SA 4.0]]
 
+---
 ### The problem: Whom can you trust?
 
 Pi-hole includes a caching and *forwarding* DNS server, now known as *FTL*DNS. After applying the blocking lists, it forwards requests made by the clients to configured upstream DNS server(s). However, as has been mentioned by several users in the past, this leads to some privacy concerns as it ultimately raises the question: *Whom can you trust?* Recently, more and more small (and not so small) DNS upstream providers have appeared on the market, advertising free and private DNS service, but how can you know that they keep their promises? Right, you can't.

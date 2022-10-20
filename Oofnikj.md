@@ -1,6 +1,8 @@
 # Raspberry Pi Instructions
 Original Source: https://github.com/oofnikj/docker-openwrt/blob/master/docs/rpi.md
+License: [[Licence Index#OOFNIKJ|GNU General Public License v2.0]]
 
+---
 Turn your Pi into a pretty okay-ish travel router (or a very slow main router)!
 
 OpenWrt officially supports Raspberry Pi hardware if you want to run it as your primary OS. But running in a container brings many advantages, one of which is not having to re-flash your SD card if you already have some services running.
