@@ -14,9 +14,9 @@ The project is still in its infancy, so **I cannot guarantee that it is free of 
 
 Later iterations will allow one to utilize [[Docker]] to consolidate the system into one device while preserving security, or even utilize some new technology to bypass ISP surveillance. For now, the hardware build should be enough to foil any state law enforcement that's prowling around looking for people seeking an abortion. And for the brave Iranian Protesters, I am constantly updating this documentation as I learn more about what your government is capable of.
 
->[!IMPOERANT]
+>[!IMPORANT]
 > [[Usage|USAGE GUIDELINES]]
-> 
+> [[LICENSE]]
 
 ## Hardware
 - [[OpenWrt|GL-iNet Router]] or a [[Raspberry Pi]]. I used the GL-iNet because I only had one Pi, which didn't have a built in Wi-Fi chip (If you use a Pi for this part, you NEED one with a built in Wi-Fi chip).

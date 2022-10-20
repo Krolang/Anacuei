@@ -768,3 +768,6 @@ the avoidance of doubt, this paragraph does not form part of the
 public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
+
+___
+The License for the Anacuei Project can be found [[LICENSE|Here]].
