@@ -17,6 +17,7 @@ Later iterations will allow one to utilize [[Docker]] to consolidate the system 
 >[!IMPORANT]
 > [[Usage|USAGE GUIDELINES]]
 > [[LICENSE]]
+> [[Iran|For Users in Iran]] (needs translation)
 
 ## Hardware
 - [[OpenWrt|GL-iNet Router]] or a [[Raspberry Pi]]. I used the GL-iNet because I only had one Pi, which didn't have a built in Wi-Fi chip (If you use a Pi for this part, you NEED one with a built in Wi-Fi chip).
