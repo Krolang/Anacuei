@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "803a0e2dd5b1b647",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd09c5efa1322503",
+        "type": "split",
+        "children": [
+          {
+            "id": "2693e023295b0236",
+            "type": "tabs",
+            "dimension": 64.72034419176399,
+            "children": [
+              {
+                "id": "d3c7aca71e0db64a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Configure Ethernet.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "stacked": true
+          },
+          {
+            "id": "e835c26802d8a528",
+            "type": "split",
+            "dimension": 35.279655808236015,
+            "children": [
+              {
+                "id": "276f853c2145f512",
+                "type": "tabs",
+                "dimension": 64.64746772591857,
+                "children": [
+                  {
+                    "id": "fd4d47e1efa73a9c",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "graph",
+                      "state": {},
+                      "pinned": true
+                    }
+                  }
+                ],
+                "stacked": true
+              },
+              {
+                "id": "4b312b0937b96bb0",
+                "type": "tabs",
+                "dimension": 35.352532274081426,
+                "children": [
+                  {
+                    "id": "80c92dced6ee95a1",
+                    "type": "leaf",
+                    "state": {
+                      "type": "outline",
+                      "state": {
+                        "file": "Configure Ethernet.md"
+                      }
+                    }
+                  }
+                ],
+                "stacked": true
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "071ead2308187853",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e3c61b0e32cb706",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c71fc28c1535245",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0179cb56cd243836",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "df0bf8a79e780c47",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.5
+  },
+  "right": {
+    "id": "958828f833b211dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "693dfdbd3b0dccd7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6d03a04525a1120",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Configure Ethernet.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "159c5dd4d0367057",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Configure Ethernet.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c343a60a7ee30dec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "19eb381be99ddb1d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Configure Ethernet.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "d3c7aca71e0db64a",
+  "lastOpenFiles": [
+    "Configure Ethernet.md",
+    "README.md",
+    "Licence Index.md",
+    "Iran.md",
+    "Unbound Recursive DNS.md",
+    "Oofnikj.md",
+    "Pi-Hole Setup Guide.md",
+    "Pi-Hole.md",
+    "Tor.md",
+    "THREAT MODEL.md"
+  ]
+}
